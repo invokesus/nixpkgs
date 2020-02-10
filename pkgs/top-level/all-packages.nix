@@ -15610,6 +15610,8 @@ in
 
   vmfs-tools = callPackage ../tools/filesystems/vmfs-tools { };
 
+  patroni = callPackage ../servers/sql/patroni { };
+
   pgbouncer = callPackage ../servers/sql/pgbouncer { };
 
   pgpool = callPackage ../servers/sql/pgpool {
